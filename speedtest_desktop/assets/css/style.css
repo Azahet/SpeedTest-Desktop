@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400');
+body{
+    background: #1B1B1E;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #A9BCD0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    user-select: none;
+    font-weight: 100 !important;
+}
+.drag{
+    height: 20px;
+    -webkit-app-region: drag;
+    font-weight: 400;
+}
+.hide{
+    display: none !important;
+}
+.c100 {
+    background-color:transparent !important;
+}
+.c100:after {
+    background-color: transparent !important;
+}
+h3 {
+    color: #F8BBD0;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 100 !important;
+}
+h1{
+    color:#F8BBD0;
+}
+.left{
+    display: inline-block; text-align: right;
+    
+}
+.value{
+    font-size: 70px;
+    margin: -4px 0px -15px 0px;
+    color: #F8BBD0;
+    filter: drop-shadow(0px 0px 4px rgba(233, 30, 99, 0.342));
+    position: relative;
+    transform: rotateY(0deg);
+    transition: all 0.3s ease ;
+}
+.finish{
+    color : rgb(233, 30, 99);
+}
+.container{  
+    padding-top: 55px;
+    width: 80%;
+    margin: auto;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.percent{
+    height: 5px;
+    width: 0%;
+    background: #F8BBD0;
+    position: absolute;
+    margin-left: -8px;
+    bottom: 0;
+    transition: all 1s ease-out;
+}
+.legend {
+    position: absolute;
+    bottom: -10px;
+    font-style: italic;
+    font-size: 11px;
+    right: 10px;
+}
+a {
+    color: #e91c61;
+    cursor: pointer;
+}
+.close {
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+    background: #F44336;
+    margin-left: 1px;
+    position: absolute;
+    margin-top: -18px;
+    cursor: pointer;
+    z-index: 99999999;
+    -webkit-app-region: no-drag;
+}
+.info {
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+    background: #E91E63;
+    margin-left: 1px;
+    position: absolute;
+    margin-top: -18px;
+    cursor: pointer;
+    z-index: 99999999;
+    color: #1b1b1e;
+    right: 10px;
+    font-weight: 900;
+    -webkit-app-region: no-drag;
+}

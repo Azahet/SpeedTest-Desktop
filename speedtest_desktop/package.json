@@ -1,0 +1,24 @@
+{
+  "name": "speedtest_desktop",
+  "version": "1.0.0",
+  "description": "A desktop version of speedtest.net",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/Azahet/SpeedTest-Desktop",
+  "keywords": [
+    "speedtest",
+    "desktop"
+  ],
+  "author": "Azahet",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "~1.8.2",
+    "electron-packager": "^11.1.0",
+    "electron-reload": "^1.2.2"
+  },
+  "dependencies": {    
+    "speedtest-net": "^1.4.2"
+  }
+}

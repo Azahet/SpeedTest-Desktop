@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>SpeedTest Desktop</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/circle.css" />
+</head>
+
+<body>
+
+  <div class="drag">
+    SpeedTest Desktop
+  </div>
+  <div class="close"></div>
+  <div class="info"></div>
+
+
+  <div class="container">
+
+    <h1 class="servinfo">
+      <div class="loader"></div>
+    </h1>
+
+    <div class="row">
+
+      <div class="column">
+        <div class="left">
+          <h3 style="text-align: center;">
+            </h3style>PING</h3>
+          <div class="ping value">
+            <div class="loader"></div>
+          </div>
+          <h3 class="ping hide">ms</h3>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="left">
+          <h3 style="text-align: center;">DOWNLOAD</h3>
+          <div class="down value ">
+            <div class="loader"></div>
+          </div>
+          <h3 class="down hide">Mbps</h3>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="left">
+          <h3 style="text-align: center;">UPLOAD</h3>
+          <div class="upl value ">
+            <div class="loader"></div>
+          </div>
+          <h3 class="upl hide">Mbps</h3>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <h5 class="legend">Data provided from <a>speedtest.net</a></h5>
+  <h5 class="legend" style="position: absolute;left: -681px;">Made by Azahet</h5>
+  <div class="percent"></div>
+
+
+  <script src="assets/js/app.js"></script>
+
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+</body>
+
+</html>
